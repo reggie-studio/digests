@@ -1,25 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ title }} | Reggie Digests</title>
-  <link rel="stylesheet" href="/css/style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: '#38bdf8'
+          }
+        }
+      }
+    }
+  </script>
+  <style type="text/tailwindcss">
+    @layer components {
+      .prose-custom h2 { @apply text-2xl font-bold mt-8 mb-4 text-white; }
+      .prose-custom h3 { @apply text-xl font-semibold mt-6 mb-3 text-white; }
+      .prose-custom p { @apply mb-4 leading-relaxed; }
+      .prose-custom ul, .prose-custom ol { @apply mb-4 ml-6 space-y-2; }
+      .prose-custom li { @apply text-slate-300; }
+      .prose-custom blockquote { @apply border-l-4 border-brand pl-4 my-6 text-slate-400 italic; }
+      .prose-custom code { @apply bg-slate-800 px-1.5 py-0.5 rounded text-sm text-sky-300; }
+      .prose-custom pre { @apply bg-slate-800 p-4 rounded-lg overflow-x-auto my-6; }
+      .prose-custom pre code { @apply bg-transparent p-0; }
+      .prose-custom a { @apply text-brand hover:text-sky-300 transition-colors; }
+      .prose-custom strong { @apply text-white font-semibold; }
+    }
+  </style>
 </head>
-<body>
-  <nav class="nav">
-    <a href="/" class="nav-brand">🥷 Reggie Digests</a>
-    <div class="nav-links">
-      <a href="/">Home</a>
-      <a href="/categories/">Categories</a>
+<body class="bg-slate-900 text-slate-200 min-h-screen flex flex-col font-sans">
+  <nav class="flex justify-between items-center px-6 py-4 border-b border-slate-700">
+    <a href="{{ '/' | url }}" class="text-xl font-semibold text-white hover:text-brand transition-colors">🥷 Reggie Digests</a>
+    <div class="flex gap-6">
+      <a href="{{ '/' | url }}" class="text-slate-300 hover:text-brand transition-colors">Home</a>
+      <a href="{{ '/categories/' | url }}" class="text-slate-300 hover:text-brand transition-colors">Categories</a>
     </div>
   </nav>
   
-  <main class="container">
+  <main class="flex-1 max-w-3xl mx-auto w-full px-6 py-8">
     {{ content | safe }}
   </main>
   
-  <footer class="footer">
+  <footer class="text-center py-6 border-t border-slate-700 text-slate-500">
     <p>Curated by Reggie 🥷</p>
   </footer>
 </body>

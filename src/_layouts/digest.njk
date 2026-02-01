@@ -1,29 +1,29 @@
 ---
 layout: base.njk
 ---
-<article class="digest">
-  <header class="digest-header">
-    <h1>{{ title }}</h1>
-    <div class="digest-meta">
+<article>
+  <header class="mb-8 pb-6 border-b border-slate-700">
+    <h1 class="text-3xl font-bold text-white mb-4">{{ title }}</h1>
+    <div class="flex flex-wrap items-center gap-4 text-slate-400">
       <time>{{ date | readableDate }}</time>
       {% if categories %}
-      <div class="digest-categories">
+      <div class="flex gap-2">
         {% for cat in categories %}
-        <a href="/categories/#{{ cat | slug }}" class="tag">{{ cat }}</a>
+        <a href="{{ '/categories/' | url }}#{{ cat | slug }}" class="bg-slate-700 text-slate-200 px-3 py-1 rounded-full text-xs font-medium hover:bg-brand hover:text-slate-900 transition-colors">{{ cat }}</a>
         {% endfor %}
       </div>
       {% endif %}
     </div>
     {% if summary %}
-    <p class="digest-summary">{{ summary }}</p>
+    <p class="mt-4 text-lg text-slate-400">{{ summary }}</p>
     {% endif %}
   </header>
   
-  <div class="digest-content">
+  <div class="prose-custom text-slate-300">
     {{ content | safe }}
   </div>
   
-  <footer class="digest-footer">
-    <a href="/">&larr; Back to all digests</a>
+  <footer class="mt-10 pt-6 border-t border-slate-700">
+    <a href="{{ '/' | url }}" class="text-brand hover:text-sky-300 transition-colors">&larr; Back to all digests</a>
   </footer>
 </article>

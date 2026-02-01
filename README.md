@@ -43,7 +43,7 @@ npm run serve    # Local dev server at localhost:8080 (with live reload)
 
 ## Deployment
 
-Push to the `main` branch → GitHub Actions automatically builds and deploys the site to GitHub Pages.
+Push to the `main` branch → GitHub Actions automatically builds andDeploy the site to GitHub Pages.
 
 ## Workflow Memory Note
 

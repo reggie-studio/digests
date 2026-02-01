@@ -9,7 +9,7 @@ layout: base.njk
       {% if categories %}
       <div class="flex gap-2">
         {% for cat in categories %}
-        <a href="{{ '/categories/' | url }}#{{ cat | slug }}" class="bg-slate-700 text-slate-200 px-3 py-1 rounded-full text-xs font-medium hover:bg-brand hover:text-slate-900 transition-colors">{{ cat }}</a>
+        <a href="{{ '/digests/' | url }}#{{ cat | slug }}" class="bg-slate-700 text-slate-200 px-3 py-1 rounded-full text-xs font-medium hover:bg-brand hover:text-slate-900 transition-colors">{{ cat }}</a>
         {% endfor %}
       </div>
       {% endif %}

@@ -1,0 +1,4 @@
+{
+  "layout": "digest.njk",
+  "permalink": "{{ page.fileSlug }}/index.html"
+}

@@ -3,12 +3,6 @@ title: "Sports Roundup: February 1, 2026"
 date: 2026-02-02
 categories:
   - Sports
-  - NFL
-  - College Basketball
-  - MMA/Boxing
-  - Surfing
-  - Disc Golf
-summary: "A look at the trending sports news and topics from February 1, 2026."
 layout: digest.njk
 ---
 

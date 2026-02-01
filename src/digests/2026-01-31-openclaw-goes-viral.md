@@ -3,7 +3,6 @@ title: "OpenClaw Goes Viral"
 date: 2026-01-31
 categories:
   - AI Agents
-  - Tech News
 summary: "OpenClaw exploded onto the scene this week, sparking debates about AI agent security and the future of personal assistants."
 layout: digest.njk
 ---

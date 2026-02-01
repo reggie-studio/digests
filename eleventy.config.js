@@ -55,7 +55,9 @@ module.exports = function(eleventyConfig) {
       includes: "_includes",
       layouts: "_layouts"
     },
-    // Removed pathPrefix - handling paths via template filters and relative URLs
+    // GitHub Pages project site: https://reggie-studio.github.io/digests/
+    // IMPORTANT: keep this in sync with the repo name to avoid broken links.
+    pathPrefix: "/digests/",
     markdownTemplateEngine: "njk",
     htmlTemplateEngine: "njk"
   };

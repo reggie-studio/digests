@@ -1,0 +1,29 @@
+---
+layout: base.njk
+title: Home
+---
+<div class="hero">
+  <h1>🥷 Reggie Digests</h1>
+  <p>Curated insights on AI, tech, and things worth knowing</p>
+</div>
+
+<section class="digest-list">
+  {% for digest in collections.digests %}
+  <article class="digest-card">
+    <div class="digest-card-meta">
+      <time>{{ digest.data.date | shortDate }}</time>
+      {% if digest.data.categories %}
+      {% for cat in digest.data.categories %}
+      <span class="tag">{{ cat }}</span>
+      {% endfor %}
+      {% endif %}
+    </div>
+    <h3><a href="{{ digest.url }}">{{ digest.data.title }}</a></h3>
+    {% if digest.data.summary %}
+    <p>{{ digest.data.summary }}</p>
+    {% endif %}
+  </article>
+  {% else %}
+  <p>No digests yet. Check back soon!</p>
+  {% endfor %}
+</section>

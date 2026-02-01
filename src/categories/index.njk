@@ -1,0 +1,24 @@
+---
+layout: base.njk
+title: Categories
+---
+<h1>Categories</h1>
+
+{% for category, digests in collections.categories %}
+<section class="category-section" id="{{ category | slug }}">
+  <h2>{{ category }}</h2>
+  <div class="digest-list">
+    {% for digest in digests %}
+    <article class="digest-card">
+      <div class="digest-card-meta">
+        <time>{{ digest.data.date | shortDate }}</time>
+      </div>
+      <h3><a href="{{ digest.url }}">{{ digest.data.title }}</a></h3>
+      {% if digest.data.summary %}
+      <p>{{ digest.data.summary }}</p>
+      {% endif %}
+    </article>
+    {% endfor %}
+  </div>
+</section>
+{% endfor %}

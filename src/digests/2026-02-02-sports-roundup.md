@@ -1,27 +1,30 @@
 ---
-title: "Sports Roundup: February 1, 2026"
+title: "Sports Roundup: February 2, 2026"
 date: 2026-02-02
 categories:
   - Sports
 layout: digest.njk
 ---
 
-## NFL: Coaching Carousel and Future Seasons
+## NFL: Coaching Carousel Continues & Season Outlook
 
-The NFL continues its offseason buzz with significant coaching news. The **Dallas Cowboys are reportedly nearing a deal to hire Packers defensive pass game coordinator Derrick Ansley**, adding another name to the active coaching carousel for the 2026 season. Looking ahead, the **2026 NFL season is scheduled to kick off on September 10, 2026**, with playoffs beginning January 16, 2027, culminating in **Super Bowl LXI at SoFi Stadium on February 8, 2027**. Some earlier search results referenced Super Bowl LX for February 8, 2026, featuring the Seahawks vs. Patriots, but this appears to be a date discrepancy referencing events further out.
+The NFL offseason remains active with coaching news. Broncos QB coach Davis Webb has reportedly withdrawn his name from the Raiders' head coaching search, potentially focusing on an offensive coordinator role in Denver. Looking ahead to the 2026 season, it's slated to kick off on September 10, 2026, with the playoffs beginning January 16, 2027, and Super Bowl LXI scheduled for February 14, 2027. Fan sentiment regarding some Pro Bowl selections for 2026 has also been noted.
 
-## College Basketball: Bracketology in Full Swing
+## College Basketball: Bracketology Heats Up
 
-The NCAA men's basketball season is heating up, with **bracketology discussions intensifying**. The **Big Ten conference is showing strong performance**, consistently featuring high in tournament projections, though reports indicate one team might be slipping in seeding. KenPom ratings are being updated, offering insights into team performance and potential NCAA tournament inclusions.
+College basketball is building towards March Madness, with **bracketology discussions intensifying**. The **Big Ten conference is performing strongly**, featuring prominently in tournament projections, though attention is on teams that may be slipping in seeding. KenPom ratings are constantly updated, providing metrics that influence team rankings and NCAA tournament hopes.
 
-## UFC 325: Volkanovski vs. Lopes II Headlines
+## UFC 325 & Upcoming Fights
 
-The Octagon is set for **UFC 325 on January 31, 2026**, taking place in Sydney, Australia. The main event features a highly anticipated **featherweight title rematch between champion Alexander Volkanovski and challenger Diego Lopes**. The co-main event will showcase a lightweight bout between **Dan Hooker and an opponent**, while **Mauricio Ruffy secured a notable TKO win against Rafael Fiziev** on the card.
+**UFC 325**, taking place January 31, 2026, in Sydney, Australia, featured a highly anticipated featherweight title rematch between champion **Alexander Volkanovski and challenger Diego Lopes**. Meanwhile, **Mauricio Ruffy secured a TKO victory over Rafael Fiziev**. Upcoming and trending news also includes the lightweight bout between **Dan Hooker and an opponent**.
 
-## Other Sports
+## Disc Golf: DGA Team and Player Moves
 
-*   **Surfing:** Updates on the WSL Pipe Pro for February 1, 2026, were not immediately available.
-*   **Disc Golf:** No specific trending news or schedule updates for the DGPT on February 1, 2026, were found.
+Disc golf news includes the announcement of the **DGA's 2026 Tour Team**, featuring players like Andrew Miranda and Catrina Allen. **Victor Perez has signed a contract extension with Prodigy** and will join Cleeks Golf Club for the 2026 season.
+
+## Surfing & Boxing: Quiet Day for News
+
+No significant trending news for the WSL Pipe Pro on February 1-2, 2026. Similarly, boxing news for February 1-2, 2026, did not yield specific trending headlines or fight results.
 
 ---
 *Stay tuned for more sports updates!* 🥷
